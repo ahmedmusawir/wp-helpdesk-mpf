@@ -229,6 +229,11 @@ class MPFWPHelpdesk
 			echo '</pre>';
 			
 			
+			echo '<h5 id="settings-reg">WP SETTINGS Display Callback</h5> <a href="#mpf-header-box" class="btn btn-primary float-right">GO TO MENU</a> <br>';
+			echo '<pre style="background-color: #e0e0e0;">';
+			highlight_file('wp-settings-menu-display-callback-code.php');
+			echo '</pre>';
+
 			echo '<h5 id="settings-reg">WP SETTINGS Registration</h5> <a href="#mpf-header-box" class="btn btn-primary float-right">GO TO MENU</a> <br>';
 			echo '<pre style="background-color: #e0e0e0;">';
 			highlight_file('wp-settings-registration-code.php');
